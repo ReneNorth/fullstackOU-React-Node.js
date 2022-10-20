@@ -1,0 +1,12 @@
+note over browser:
+after submitting browser sends
+new note to the server 
+end note
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over browser:
+Browser receives 201 status code
+end note
+server-->browser: 201 Status Response
+note over browser:
+Beowser renders the new note
+end note
